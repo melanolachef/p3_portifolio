@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'BM Space';
+  src: url('/fonts/BMSPA___.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #050A1F;
+  color: #FFFFFF;
+  font-family: 'BM Space', 'Courier New', monospace;
+  overflow: hidden;
+}
+
+/* Barra de Rolagem Customizada (Estilo Jogo) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 191, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00BFFF;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E0F7FA;
+}
